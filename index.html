@@ -1,0 +1,16 @@
+<!DOCTYPE html><html lang="en"><head>   <meta charset="UTF-8">   <meta http-equiv="X-UA-Compatible" content="IE=edge">   <meta name="viewport" content="width=device-width, initial-scale=1.0">   <link rel="stylesheet" href="style.css">   <script src="index.js"></script>   <title>Random Password Generator </title></head><body>   <div class="container">      <div class="text">Random Generator <br>in HTML CSS & Javascript</div>       <div class="input-data">          <div class="display">             <input type="text">             <span class="far fa-copy"></span>             <span class="fas fa-copy"></span>
+          </div>          <button>GeneratePassword</button>
+
+
+       </div>
+       <script>          const display = document.querySelector("input"),          const display = document.querySelector("button"),          const display = document.querySelector("span.far"),          const display = document.querySelector("span.fas"),          const display = document.querySelector("input");
+          let chars ="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!@#$%^&*()_+~|}{[]:;?><,./-=";
+          button.onclick = ()=>{             let i,             randomPassword = "";             for (i = 0; i <8; i++) {                randomPassword = randomPassword + chars.charAt(                   Math.floor(Math.random() * chars.length)                );             }             display.value=randomPassword;          }
+       </script>
+
+
+
+
+   </div>  
+ </body>
+</html>
